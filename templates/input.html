@@ -1,0 +1,90 @@
+{% load static %}
+
+<!DOCTYPE html>   
+<!--
+Template Name: Shiphile
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title> Liveness Detection </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('{% static 'images/demo/backgrounds/123.png' %}');"> 
+  <!-- ################################################################################################ -->
+  
+
+  <style>
+    .button2 {1st-section
+      border: none;
+      color: white;
+      padding: 6px 10px;
+     
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 32px;
+      margin: 4px 2px;
+      cursor: pointer;
+       position: fixed;
+      left: 10%;
+      top: 60%;
+    }
+     .button_1 {background-color: #4CAF50;} /* Green */
+    </style>
+  <!-- ################################################################################################ -->
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+      <h3 class="heading"> Liveness detection for face recognition  </h3>
+      
+      
+    </article>
+    <!-- ################################################################################################ -->
+    <form action='output' method="POST" enctype="multipart/form-data" class="login100-form validate-form">
+      {% csrf_token %}
+
+      
+
+         <ul class="nospace inline pushright">
+           <li>
+         
+        <span class="focus-input100"></span>
+        <span class="label-input100"></span>
+
+     
+          
+      </div>
+           
+ 
+           
+      <li><button  class="button2 button_1" type="submit"  class="login100-form-btn" background-color: #4CAF50> START </button></li>
+         </ul>
+         </form>
+
+
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="{% static 'layout/scripts/jquery.min.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.backtotop.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.mobilemenu.js' %}"></script>
+</body>
+</html>
